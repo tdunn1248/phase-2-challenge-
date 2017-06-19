@@ -32,9 +32,22 @@ let friend = {
 
 function numProps(obj) {
   const propCount = Object.keys(obj).length
-  console.log('props', propCount)
   return propCount
 }
 
 numProps(friend)
 numProps({})
+
+// Filter between
+function filterBetween(array, min, max) {
+  let filteredArray = []
+  for(let i = 0; i < array.length; i++) {
+    if(array[i] >= min && array[i] <= max) {
+      filteredArray.push(array[i])
+    }
+  }
+  return filteredArray
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7]
+filterBetween(arr, 5, 10)
