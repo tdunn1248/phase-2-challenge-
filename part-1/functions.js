@@ -22,3 +22,19 @@ function snippet(string, maxlength) {
 
 let following = snippet('For the following excercises,', 10)
 let helloWorld = snippet('Hello, world!', 20)
+
+// Number of properties
+let friend = {
+  name: 'Dominique',
+  age: 30,
+  phone: '555-555-5555'
+}
+
+function numProps(obj) {
+  const propCount = Object.keys(obj).length
+  console.log('props', propCount)
+  return propCount
+}
+
+numProps(friend)
+numProps({})
