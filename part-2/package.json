@@ -1,0 +1,12 @@
+{
+  "name": "nodescripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "searchByName.js",
+  "scripts": {
+    "start": "node searchByName.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
