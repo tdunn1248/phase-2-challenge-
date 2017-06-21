@@ -8,11 +8,11 @@ When you run a command in the terminal, where does BASH look for that command?
 
 On a UNIX computer, how do you stop a running process?
 
--control C
+- control C
 
 What packages do you have installed via homebrew?
 
--nodejs
+- nodejs
 
 
 On a UNIX computer, how do you find the process id of a running process?
@@ -43,7 +43,8 @@ When a terminal command completes, how can you tell if it was successful or not?
 
 What does your ~/.gitconfig have in it? (paste the whole file here)
 
--
+- setup for user settings 
+- also always various customizable commands for both client and server side
 
 What is the difference between a relative and absolute path?
 
