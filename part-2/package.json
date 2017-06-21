@@ -4,7 +4,7 @@
   "description": "",
   "main": "searchByName.js",
   "scripts": {
-    "start": "node searchByName.js",
+    "start": "node searchByName.js & node searchByState.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
