@@ -15,7 +15,6 @@ describe('Weekday', () => {
   })
 })
 
-
 describe('Snippet', () => {
   it('should return Thomas is... for Thomas is awesome', () => {
     expect(snippet('Thomas is awesome', 9)).toEqual('Thomas is...')
@@ -34,13 +33,11 @@ describe('Snippet', () => {
   })
 })
 
-
-
 describe('NumProps', () => {
   const sampleObject = {
-    make: 'McClaren',
-    model: 'P1',
-    color: 'black',
+    make: 'ford',
+    model: 'pinto',
+    color: 'pink',
     year: 'classic'
   }
   it('should return 4 for sampleObject', () => {
@@ -56,8 +53,6 @@ it('should return an error for invalid input', () => {
     expect(numProps('')).toEqual('Error: invalid input')
   })
 })
-
-
 
 describe('FilterBetween', () => {
   it('should return 5,6,7,10,11 for [1,2,4,5,6,7, 10, 11, 15]', () => {

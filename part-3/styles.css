@@ -41,13 +41,18 @@ header button:hover {
 
 .sidebar h2 {
   background-color: #e9e9e9;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.sidebar ul {
+  list-style-type: none;
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-content: center;
-  border: 2px solid black;
   height: 100%;
   width: 100%;
 
@@ -65,24 +70,20 @@ header button:hover {
   height: 100%;
   width: 100%;
   display: block;
-  border: 2px solid #000;
 }
 
 .section {
   padding: 2em;
-
 }
 .sectionList {
   display: flex;
   flex-direction: column;
-  border: 2px solid pink;
 }
 
 .sectionList li {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid blue;
   padding: .7em;
   list-style-type: none;
   margin-bottom: 5px;
@@ -96,4 +97,3 @@ header button:hover {
 .sectionList li button:hover {
   background-color: purple;
 }
-/*the bird flew over the cuckoo nest*/
