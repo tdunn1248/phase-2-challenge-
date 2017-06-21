@@ -18,12 +18,12 @@ function snippet(string, maxlength) {
   if (typeof string !== 'string' || typeof maxlength !== 'number') {
     return "Error: invalid input";
   }
-  const daString = string.substr(0, maxlength)
+  const str = string.substr(0, maxlength)
   if(string.length > maxlength) {
-    const ellip = daString.concat('...')
+    const ellip = str.concat('...')
     return ellip
   }
-  return daString
+  return str
 }
 
 snippet('For the following excercises,', 10);
