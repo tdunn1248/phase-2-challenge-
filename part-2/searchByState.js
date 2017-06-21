@@ -1,6 +1,5 @@
 const fs = require('fs')
 
-
 fs.readFile('./clients.json', 'utf8', (err, data) => {
   if(err) throw err
   const content = JSON.parse(data)
